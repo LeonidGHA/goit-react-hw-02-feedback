@@ -3,7 +3,10 @@ import { Component } from 'react';
 import FeedbackOptions from './FeedbackOptions';
 import FeedbackSection from './FeedbackSection';
 import FeedbackStatistics from './FeedbackStatistics';
+
 import Notification from './Notification ';
+
+import css from './Feedback.module.css';
 
 class Feedback extends Component {
   state = {
@@ -42,7 +45,7 @@ class Feedback extends Component {
     const positivePersentage = this.positivePersentage();
 
     return (
-      <div className="container">
+      <div className={css.container}>
         <FeedbackSection title="Please leave feedback">
           <FeedbackOptions
             options={keyArr}
