@@ -1,4 +1,4 @@
-import css from './Feedback.module.css';
+import css from '../App.module.css';
 import PropTypes from 'prop-types';
 
 function FeedbackSection({ title, children }) {
