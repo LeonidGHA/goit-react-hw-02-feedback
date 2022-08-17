@@ -12,7 +12,7 @@ function FeedbackSection({ title, children }) {
 
 FeedbackSection.propTypes = {
   title: PropTypes.string.isRequired,
-  children: PropTypes.object.isRequired,
+  children: PropTypes.element.isRequired,
 };
 
 export default FeedbackSection;
